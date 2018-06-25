@@ -1,0 +1,11 @@
+<h2>Side Nav</h2>
+<div>
+  <button [routerLink]="[{ outlets: { sidenav: ['list'] } }]">
+    List
+  </button>
+  <button [routerLink]="[{ outlets: { sidenav: ['details'] } }]">
+      Detials
+  </button>
+  <ng-content>
+  </ng-content>
+</div>
